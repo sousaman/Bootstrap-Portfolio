@@ -13,37 +13,38 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="container-responsive">
 
-  <div class="page-wrap">
+    <div class="container-responsive">
 
-      <div class="topLine clearFix">
+        <nav class="col col-12 navbar navbar-light bg-light sticky-top">
+            <div class="container-fluid justify-content-between">
+                <h1 class="col col-auto">
+                    <a href="index.html" class="text-dark">James Henley</a>
+                </h1>
+                <form class="col col-auto container">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link btn btn-light" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link btn btn-dark active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link btn btn-light" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+    </div>
 
-          <h1>
-            <a href="index.html" class="text-dark">James Henley</a>
-          </h1>
-    
-          <nav>
-            <ul>
-              <li>
-                <a class="nav-link btn btn-light" href="about.html">About</a>
-              </li>
-              <li>
-                <a class="nav-link btn btn-dark active" href="portfolio.html">Portfolio</a>
-              </li>
-              <li>
-                <a class="nav-link btn btn-light " href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-    <div class="overallContent clearFix">
-      <div class="mainContent">
+    <div class="container-fluid clearfix my-5 mx-1">
+      <div class="mainContent col-md-8 float-left p-2-md ml-2-md">
         <h2>Portfolio</h2>
         <div class="container">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6 col-s">
               <a href="https://github.com/sousaman/liri-node-app">
                 <img src="assets/images/Liri.png" alt="Sports?" class="img-fluid placeholderPics hover-outline">
                 <div class="pictureLabels">
@@ -51,7 +52,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6 col-s">
               <a href="https://github.com/sousaman/hangman-node-app">
                 <img src="assets/images/Hangman.jpg" alt="Sports?" class="img-fluid placeholderPics hover-outline">
                 <div class="pictureLabels">
@@ -61,7 +62,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6 col-s">
               <a href="https://github.com/sousaman/Bamazon">
                 <img src="assets/images/Trivia Game.jpg" alt="Sports?" class="img-fluid placeholderPics hover-outline">
                 <div class="pictureLabels">
@@ -69,7 +70,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6 col-s">
               <a href="https://floating-caverns-28068.herokuapp.com/" target="_blank">
                 <img src="assets/images/FriendFinder.png" alt="Sports?" class="img-fluid placeholderPics hover-outline">
                 <div class="pictureLabels">
@@ -79,7 +80,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6 col-s">
               <a href="https://salty-coast-27870.herokuapp.com/">
                 <img src="assets/images/Burgers.jpg" alt="Sports?" class="img-fluid placeholderPics hover-outline">
                 <div class="pictureLabels">
@@ -87,7 +88,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6 col-s">
               <a href="https://enigmatic-forest-52846.herokuapp.com/">
                 <img src="assets/images/News.jpg" alt="Sports?" class="img-fluid placeholderPics hover-outline">
                 <div class="pictureLabels">
@@ -99,7 +100,7 @@
         </div>
       </div>
 
-      <div class="sideBar">
+      <div class="sideBar col-md-3 float-right p-2-md pb-5 mt-5 mr-5-md">
         <div class="card-body">
           <h3 class="card-title otherHeadings">Connect with Me</h3>
           <a href="https://github.com/sousaman" target="_blank">

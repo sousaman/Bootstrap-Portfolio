@@ -17,71 +17,70 @@
   <script type="text/javascript" src="assets/js/email.js"></script>
 </head>
 
-<body>
+<body class="container-responsive">
 
-  <div class="page-wrap">
+  <div class="container-responsive">
 
-      <div class="topLine clearFix">
-
-          <h1>
-            <a href="index.html" class="text-dark">James Henley</a>
-          </h1>
-    
-          <nav>
-            <ul>
-              <li>
-                <a class="nav-link btn btn-light" href="about.html">About</a>
-              </li>
-              <li>
-                <a class="nav-link btn btn-light" href="portfolio.html">Portfolio</a>
-              </li>
-              <li>
-                <a class="nav-link btn btn-dark active" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-    <div class="overallContent clearFix">
-      <div class="mainContent">
-        <h2>Contact</h2>
-        <form id="form">
-          <div class="form-group">
-            <label for="exampleInputName1">Name</label>
-            <input type="text" class="form-control" id="exampleInputName1" placeholder="John Smith">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-          </div>
-          <button type="submit" class="submit btn btn-dark">Submit</button>
+    <nav class="col col-12 navbar navbar-light bg-light sticky-top">
+      <div class="container-fluid justify-content-between">
+        <h1 class="col col-auto">
+          <a href="index.html" class="text-dark">James Henley</a>
+        </h1>
+        <form class="col col-auto container">
+          <ul class="nav nav-pills">
+            <li class="nav-item mx-auto">
+              <a class="nav-link btn btn-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link btn btn-light" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link btn btn-dark active" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </form>
       </div>
+    </nav>
+  </div>
 
-      <div class="sideBar">
-        <div class="card-body">
-          <h3 class="card-title otherHeadings">Connect with Me</h3>
-          <a href="https://github.com/sousaman" target="_blank">
-            <img class="logo hover-outline" src="assets/images/GitHub.png" alt="GitHub Logo">
-          </a>
-          <a href="https://www.linkedin.com/in/jameshenley1/" target="_blank">
-            <img class="logo hover-outline" src="assets/images/LinkedIn.png" alt="LinkedIn Logo">
-          </a>
-          <a href="https://stackexchange.com/users/12178949/james-henley" target="_blank">
-            <img class="logo hover-outline" src="assets/images/StackOverflow.png" alt="StackOverflow Logo">
-          </a>
+  <div class="container-fluid clearfix my-5 mx-1">
+    <div class="mainContent col-md-8 float-left p-2-md ml-2-md">
+      <h2>Contact</h2>
+      <form id="form">
+        <div class="form-group">
+          <label for="exampleInputName1">Name</label>
+          <input type="text" class="form-control" id="exampleInputName1" placeholder="John Smith">
         </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+        </div>
+        <button type="submit" class="submit btn btn-dark">Submit</button>
+      </form>
+      <br>
+    </div>
+
+    <div class="sideBar col-md-3 float-right p-2-md pb-5 mt-5 mr-5-md">
+      <div class="card-body">
+        <h3 class="card-title otherHeadings">Connect with Me</h3>
+        <a href="https://github.com/sousaman" target="_blank">
+          <img class="logo hover-outline" src="assets/images/GitHub.png" alt="GitHub Logo">
+        </a>
+        <a href="https://www.linkedin.com/in/jameshenley1/" target="_blank">
+          <img class="logo hover-outline" src="assets/images/LinkedIn.png" alt="LinkedIn Logo">
+        </a>
+        <a href="https://stackexchange.com/users/12178949/james-henley" target="_blank">
+          <img class="logo hover-outline" src="assets/images/StackOverflow.png" alt="StackOverflow Logo">
+        </a>
       </div>
     </div>
+  </div>
 
 
-    <div class="emptyBox"> </div>
-    <div class="footer">
-      <div class="footerText">&copy; Copyright 2017 James Henley</div>
-    </div>
-
-
-
+  <div class="emptyBox"> </div>
+  <div class="footer">
+    <div class="footerText">&copy; Copyright 2017 James Henley</div>
+  </div>
 
 </body>
 
